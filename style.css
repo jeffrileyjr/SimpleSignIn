@@ -12,10 +12,12 @@ html {
     box-sizing: inherit;
   }
 
-  
+  body {
+    background-color: #eaf4f9;
+  }
 
-.background {
-    /* background-image: linear-gradient(to bottom right, #DCEAF0,#EAF4F9); */
+  /* just made whole page background color */
+/* .background {
     background-color: #eaf4f9;
     position: relative;
     left: 50%;
@@ -24,7 +26,7 @@ html {
     width: 1200px;
     border-radius: 6.5px;
     padding: 10% 15%;
-}
+} */
 
 .signIn {
     position: absolute; 
@@ -115,6 +117,7 @@ button:hover {
 .link {
     color: #7A7376;
     text-decoration: none;
+    font-weight: 600;
 }
 .link:visited {
     color: #7A7376;
